@@ -863,6 +863,14 @@ video {
   background-image: url('/assets/images/sdk-n-rest-api-image.webp');
 }
 
+.bg-\[url\(\'assets\/images\/sdk-n-rest-api-image\.webp\'\)\]{
+  background-image: url('assets/images/sdk-n-rest-api-image.webp');
+}
+
+.bg-\[url\(\'\.\.\/assets\/images\/sdk-n-rest-api-image\.webp\'\)\]{
+  background-image: url('../assets/images/sdk-n-rest-api-image.webp');
+}
+
 .bg-contain{
   background-size: contain;
 }
