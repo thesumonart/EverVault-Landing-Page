@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Inter: ["Inter", "serif"],
-        SegoeUI: ["Segoe UI", "serif"],
+        SegoeUI: ["SegoeUI"],
       },
       maxWidth: {
         siteWidth: "1440px",
