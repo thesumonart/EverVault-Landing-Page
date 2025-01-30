@@ -64,7 +64,9 @@
     <!-- Navigation bar ends here -->
     <main class="px-2 md:px-3">
       <!-- Hero section starts here -->
-      <div class="bg-heroImage rounded-3xl md:rounded-[38px] h-[810px]">
+      <section
+        class="w-full bg-heroImage rounded-3xl md:rounded-[38px] h-[810px]"
+      >
         <div class="max-w-containerWidth w-full h-full">
           <div
             class="max-w-[475px] gap-4 px-4 mx-auto h-full flex flex-col items-center justify-center text-center md:text-start md:items-start md:px-0"
@@ -93,12 +95,12 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- Hero section ends here -->
 
       <!-- Trusted companies section starts here -->
 
-      <div class="w-full py-20">
+      <section class="w-full py-20">
         <div
           class="max-w-containerWidth mx-auto flex flex-col items-center gap-7"
         >
@@ -163,12 +165,12 @@
             data
           </p>
         </div>
-      </div>
+      </section>
 
       <!-- Trusted companies section eds here -->
 
       <!-- Engineering solutions section starts here -->
-      <div
+      <section
         class="bg-engSolutions rounded-3xl md:rounded-[38px] px-4 py-24 lg:px-0 md:py-40"
       >
         <div
@@ -210,7 +212,7 @@
                 >
                   Encrypt card data and streamline PCI DSS compliance
                 </h3>
-                <p class="text-xs font-Inter text-[#BABCD2] md:text-sm">
+                <p class="text-xs font-Inter text-secondaryColor md:text-sm">
                   Using Evervault to encrypt credit card data reduces the burden
                   of becoming PCI compliant, so you can demonstrate PCI
                   compliance to partners in days, rather than months. Save
@@ -230,12 +232,12 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- Engineering solutions section ends here -->
 
       <!-- Security modules section starts here -->
 
-      <div class="w-full px-4 py-12 lg:px-0 lg:py-24">
+      <section class="w-full px-4 py-12 lg:px-0 lg:py-24">
         <div class="w-full max-w-[550px] mx-auto flex flex-col gap-5">
           <h2
             class="bg-clip-text text-transparent bg-textImage text-3xl text-center font-SegoeUI md:text-[56px] md:leading-tight"
@@ -295,7 +297,7 @@
             class="w-full flex flex-col items-center justify-center text-center gap-2 p-8 md:p-0 md:pl-6 lg:pl-0 md:max-w-[300px] md:items-start md:text-start"
           >
             <h4 class="text-white font-SegoeUI text-2xl">Relay</h4>
-            <p class="text-[#BABCD2]">
+            <p class="text-secondaryColor">
               An encryption proxy which can be configured to encrypt or decrypt
               data within a network request. No additional configuration
               required.
@@ -312,13 +314,13 @@
             alt="Relay-Image"
           />
         </div>
-      </div>
+      </section>
 
       <!-- Security modules section ends here -->
 
       <!-- Platform features section starts here -->
 
-      <div class="w-full px-4 py-12 lg:px-0 lg:py-24">
+      <section class="w-full px-4 py-12 lg:px-0 lg:py-24">
         <div class="w-full max-w-[560px] mx-auto flex flex-col gap-5">
           <h2
             class="bg-clip-text text-transparent bg-textImage text-3xl text-center font-SegoeUI md:text-[56px] md:leading-tight"
@@ -346,7 +348,7 @@
                   <h4 class="text-lg font-SegoeUI text-white md:text-2xl">
                     SDKs and REST API
                   </h4>
-                  <p class="font-Inter text-xs md:text-sm text-[#BABCD2]">
+                  <p class="font-Inter text-xs md:text-sm text-secondaryColor">
                     Use language-specific SDKs or our REST API to integrate
                     Evervault seamlessly.
                   </p>
@@ -360,7 +362,7 @@
                 >
                   Usage logs
                 </h4>
-                <p class="text-[#BABCD2] font-Inter text-xs md:text-sm">
+                <p class="text-secondaryColor font-Inter text-xs md:text-sm">
                   Get full visibility into how your Primitives are being used.
                 </p>
               </div>
@@ -376,7 +378,7 @@
                   <h4 class="text-lg font-SegoeUI text-white md:text-2xl">
                     Data Policies
                   </h4>
-                  <p class="font-Inter text-xs md:text-sm text-[#BABCD2]">
+                  <p class="font-Inter text-xs md:text-sm text-secondaryColor">
                     Set clear rules that dictate how and when encrypted data can
                     be decrypted.
                   </p>
@@ -395,7 +397,7 @@
                 >
                   Alerting
                 </h4>
-                <p class="text-[#BABCD2] font-Inter text-xs md:text-sm">
+                <p class="text-secondaryColor font-Inter text-xs md:text-sm">
                   Configure alerts on Primitives to notify you when specific
                   events occur.
                 </p>
@@ -412,7 +414,7 @@
                   <h4 class="text-lg font-SegoeUI text-white md:text-2xl">
                     Audit Logging
                   </h4>
-                  <p class="font-Inter text-xs md:text-sm text-[#BABCD2]">
+                  <p class="font-Inter text-xs md:text-sm text-secondaryColor">
                     Keep track of all user activity within your Evervault Team.
                   </p>
                 </div>
@@ -430,7 +432,7 @@
                 >
                   Access Control
                 </h4>
-                <p class="text-[#BABCD2] font-Inter text-xs md:text-sm">
+                <p class="text-secondaryColor font-Inter text-xs md:text-sm">
                   Control which members of your team can access and modify
                   Primitives.
                 </p>
@@ -439,9 +441,335 @@
             <!-- single row -->
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Platform features section ends here -->
+
+      <!-- Why Trust Us section starts here -->
+
+      <section class="w-full px-4 py-12 lg:px-0 lg:py-0 lg:pt-24 lg:pb-40">
+        <div
+          class="w-full max-w-containerWidth mx-auto flex flex-col items-center lg:items-start"
+        >
+          <div
+            class="w-full flex flex-col gap-5 items-center text-center md:text-start lg:items-start md:max-w-[500px]"
+          >
+            <h2
+              class="bg-clip-text text-transparent bg-textImage text-3xl font-SegoeUI md:text-[56px] md:leading-tight"
+            >
+              Why trust us?
+            </h2>
+            <p class="font-Inter text-sm text-secondaryColor">
+              All Primitives share a common suite of platform features that
+              enhance security and ensure Evervault fits neatly into your
+              existing infrastructure.
+            </p>
+          </div>
+          <!-- Reason block wrapper -->
+
+          <div class="mt-6 w-full flex flex-col gap-8 lg:mt-11 lg:gap-10">
+            <!-- Built for Developers -->
+
+            <div class="w-full flex flex-col gap-6 items-center lg:items-start">
+              <a
+                class="px-3.5 py-2.5 rounded-full border border-white/15 font-Inter text-xs lg:text-sm text-white"
+                href="#"
+                >Built for Developers</a
+              >
+              <div
+                class="w-full flex flex-wrap gap-6 pt-5 lg:pt-10 border-t border-[#2A2B3A] lg:gap-0 lg:justify-between"
+              >
+                <!-- Single Reason block -->
+
+                <div
+                  class="w-full max-w-[250px] mx-auto flex flex-col text-center items-center gap-2 lg:items-start lg:text-start lg:max-w-[300px]"
+                >
+                  <h5
+                    class="flex gap-1.5 items-center text-white font-SegoeUI text-[16px]"
+                  >
+                    <img
+                      src="./assets/images/configure-icon.svg"
+                      alt="Icon"
+                    /><span>Fundamentally Configurable</span>
+                  </h5>
+                  <p class="font-Inter text-secondaryColor text-sm">
+                    Evervault products work together and can be adapted to any
+                    type of solution.
+                  </p>
+                </div>
+
+                <!-- Single Reason block -->
+
+                <!-- Single Reason block -->
+
+                <div
+                  class="w-full max-w-[250px] mx-auto flex flex-col text-center items-center gap-2 lg:items-start lg:text-start lg:max-w-[300px]"
+                >
+                  <h5
+                    class="flex gap-1.5 items-center text-white font-SegoeUI text-[16px]"
+                  >
+                    <img src="./assets/images/timer-icon.svg" alt="Icon" /><span
+                      >Ultra-Low Latency</span
+                    >
+                  </h5>
+                  <p class="font-Inter text-secondaryColor text-sm">
+                    Encryption and decryption operations introduce a minimal
+                    latency penalty.
+                  </p>
+                </div>
+
+                <!-- Single Reason block -->
+
+                <!-- Single Reason block -->
+
+                <div
+                  class="w-full max-w-[250px] mx-auto flex flex-col text-center items-center gap-2 lg:items-start lg:text-start lg:max-w-[300px]"
+                >
+                  <h5
+                    class="flex gap-1.5 items-center text-white font-SegoeUI text-[16px]"
+                  >
+                    <img
+                      src="./assets/images/deploy-icon.svg"
+                      alt="Icon"
+                    /><span>Write and Deploy in Seconds</span>
+                  </h5>
+                  <p class="font-Inter text-secondaryColor text-sm">
+                    Built so developers spend less time and money on data
+                    security and compliance.
+                  </p>
+                </div>
+
+                <!-- Single Reason block -->
+              </div>
+            </div>
+
+            <!-- Built for Developers -->
+
+            <!-- Secure by Default -->
+
+            <div class="w-full flex flex-col gap-6 items-center lg:items-start">
+              <a
+                class="px-3.5 py-2.5 rounded-full border border-white/15 font-Inter text-xs lg:text-sm text-white"
+                href="#"
+                >Secure by Default</a
+              >
+              <div
+                class="w-full flex flex-wrap gap-6 pt-5 lg:pt-10 border-t border-[#2A2B3A] lg:gap-0 lg:justify-between"
+              >
+                <!-- Single Reason block -->
+
+                <div
+                  class="w-full max-w-[250px] mx-auto flex flex-col text-center items-center gap-2 lg:items-start lg:text-start lg:max-w-[300px]"
+                >
+                  <h5
+                    class="flex gap-1.5 items-center text-white font-SegoeUI text-[16px]"
+                  >
+                    <img
+                      src="./assets/images/shield-icon.svg"
+                      alt="Icon"
+                    /><span>Dual Security Model</span>
+                  </h5>
+                  <p class="font-Inter text-secondaryColor text-sm">
+                    We store encryption keys, you store data as you normally
+                    would — but fully encrypted.
+                  </p>
+                </div>
+
+                <!-- Single Reason block -->
+
+                <!-- Single Reason block -->
+
+                <div
+                  class="w-full max-w-[250px] mx-auto flex flex-col text-center items-center gap-2 lg:items-start lg:text-start lg:max-w-[300px]"
+                >
+                  <h5
+                    class="flex gap-1.5 items-center text-white font-SegoeUI text-[16px]"
+                  >
+                    <img
+                      src="./assets/images/checked-file-icon.svg"
+                      alt="Icon"
+                    /><span>Compliance</span>
+                  </h5>
+                  <p class="font-Inter text-secondaryColor text-sm">
+                    We’re fully compliant under PCI DSS, HIPAA, GDPR and SOC2.
+                  </p>
+                </div>
+
+                <!-- Single Reason block -->
+
+                <!-- Single Reason block -->
+
+                <div
+                  class="w-full max-w-[250px] mx-auto flex flex-col text-center items-center gap-2 lg:items-start lg:text-start lg:max-w-[300px]"
+                >
+                  <h5
+                    class="flex gap-1.5 items-center text-white font-SegoeUI text-[16px]"
+                  >
+                    <img
+                      src="./assets/images/diagonal-icon.svg"
+                      alt="Icon"
+                    /><span>Enclave-backed</span>
+                  </h5>
+                  <p class="font-Inter text-secondaryColor text-sm">
+                    Built on isolated, hardened, and highly constrained secure
+                    enclaves.
+                  </p>
+                </div>
+
+                <!-- Single Reason block -->
+              </div>
+            </div>
+
+            <!-- Secure by Default -->
+
+            <!-- Designed for Scale -->
+
+            <div class="w-full flex flex-col gap-6 items-center lg:items-start">
+              <a
+                class="px-3.5 py-2.5 rounded-full border border-white/15 font-Inter text-xs lg:text-sm text-white"
+                href="#"
+                >Designed for Scale</a
+              >
+              <div
+                class="w-full flex flex-wrap gap-6 pt-5 lg:pt-10 border-t border-[#2A2B3A] lg:gap-0 lg:justify-between"
+              >
+                <!-- Single Reason block -->
+
+                <div
+                  class="w-full max-w-[250px] mx-auto flex flex-col text-center items-center gap-2 lg:items-start lg:text-start lg:max-w-[300px]"
+                >
+                  <h5
+                    class="flex gap-1.5 items-center text-white font-SegoeUI text-[16px]"
+                  >
+                    <img src="./assets/images/chip-icon.svg" alt="Icon" /><span
+                      >Volume</span
+                    >
+                  </h5>
+                  <p class="font-Inter text-secondaryColor text-sm">
+                    Evervault processes millions of encryption operations every
+                    day.
+                  </p>
+                </div>
+
+                <!-- Single Reason block -->
+
+                <!-- Single Reason block -->
+
+                <div
+                  class="w-full max-w-[250px] mx-auto flex flex-col text-center items-center gap-2 lg:items-start lg:text-start lg:max-w-[300px]"
+                >
+                  <h5
+                    class="flex gap-1.5 items-center text-white font-SegoeUI text-[16px]"
+                  >
+                    <img src="./assets/images/earth-icon.svg" alt="Icon" /><span
+                      >Globally Distributed</span
+                    >
+                  </h5>
+                  <p class="font-Inter text-secondaryColor text-sm">
+                    Evervault resources are deployed in multiple regions to
+                    optimize uptime.
+                  </p>
+                </div>
+
+                <!-- Single Reason block -->
+
+                <!-- Single Reason block -->
+
+                <div
+                  class="w-full max-w-[250px] mx-auto flex flex-col text-center items-center gap-2 lg:items-start lg:text-start lg:max-w-[300px]"
+                >
+                  <h5
+                    class="flex gap-1.5 items-center text-white font-SegoeUI text-[16px]"
+                  >
+                    <img
+                      src="./assets/images/growth-icon.svg"
+                      alt="Icon"
+                    /><span>Scalable Pricing</span>
+                  </h5>
+                  <p class="font-Inter text-secondaryColor text-sm">
+                    Affordable, scalable pricing where you only get charged for
+                    what you use.
+                  </p>
+                </div>
+
+                <!-- Single Reason block -->
+              </div>
+            </div>
+
+            <!-- Designed for Scale -->
+          </div>
+          <!-- Reason block wrapper -->
+        </div>
+      </section>
+
+      <!-- Why Trust Us section ends here -->
+
+      <!-- Team Advisors section starts here -->
+
+      <section
+        class="w-full border-t border-[#2A2B3A] px-4 pt-16 pb-20 lg:px-0 lg:pt-32 lg:pb-44"
+      >
+        <div class="flex flex-col items-center gap-12 lg:gap-32">
+          <img
+            class="w-full max-w-[455px] h-auto"
+            src="./assets/images/figma-icon-mask.svg"
+            alt="Figma-icon-image-with-circle-mask"
+          />
+          <div class="flex flex-col md:flex-row gap-6 md:gap-3">
+            <a
+              href="#"
+              class="border border-[#2A2B3A] rounded-full text-[#5E6077] font-Inter text-xs text-center px-3.5 py-2.5 ease duration-300 hover:text-white hover:bg-advisorBg hover:shadow-advisorShadow hover:border-[#383A4D]"
+              >Dylan Field Figma Founder & CEO</a
+            >
+            <a
+              href="#"
+              class="border border-[#2A2B3A] rounded-full text-[#5E6077] font-Inter text-xs text-center px-3.5 py-2.5 ease duration-300 hover:text-white hover:bg-advisorBg hover:shadow-advisorShadow hover:border-[#383A4D]"
+              >Dylan Field Figma Founder & CEO</a
+            >
+            <a
+              href="#"
+              class="border border-[#2A2B3A] rounded-full text-[#5E6077] font-Inter text-xs text-center px-3.5 py-2.5 ease duration-300 hover:text-white hover:bg-advisorBg hover:shadow-advisorShadow hover:border-[#383A4D]"
+              >Dylan Field Figma Founder & CEO</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Team Advisors section ends here -->
+
+      <!-- Call To Action section starts here -->
+
+      <section
+        class="w-full bg-ctaBg rounded-3xl py-24 md:py-48 md:rounded-[38px]"
+      >
+        <div class="w-full max-w-containerWidth mx-auto px-4">
+          <h2
+            class="max-w-[490px] mx-auto w-full font-SegoeUI text-4xl text-center bg-clip-text bg-heroText md:text-[56px] md:leading-tight"
+          >
+            Meet compliance requirements. Build customer trust.
+          </h2>
+          <p
+            class="w-full max-w-[350px] mx-auto font-Inter text-sm text-center text-secondaryColor mt-6"
+          >
+            Use Evervault’s flexible building blocks to keep your customers’
+            data secure and compliant at all times.
+          </p>
+          <div class="flex gap-4 items-center justify-center mt-6">
+            <button
+              class="px-4 py-2.5 font-Inter text-sm text-richBlack font-medium bg-white rounded-full md:text-[16px]"
+            >
+              Request a demo
+            </button>
+            <a
+              class="font-Inter font-medium text-sm text-white md:text-[16px]"
+              href="#"
+              >Try for free</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Call To Action section ends here -->
     </main>
   </body>
 </html>
