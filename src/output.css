@@ -611,6 +611,10 @@ video {
   display: flex;
 }
 
+.inline-flex{
+  display: inline-flex;
+}
+
 .grid{
   display: grid;
 }
@@ -1171,6 +1175,10 @@ video {
 }
 
 .\*\:duration-300 > *{
+  transition-duration: 300ms;
+}
+
+.\*\:\*\:duration-300 > * > *{
   transition-duration: 300ms;
 }
 
