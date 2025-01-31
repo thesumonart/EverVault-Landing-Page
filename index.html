@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./src/output.css" />
     <title>EverVault - Landing Page</title>
   </head>
-  <body class="bg-richBlack text-white max-w-siteWidth mx-auto relative">
+  <body class="bg-richBlack text-white relative">
     <!-- Navigation bar starts here -->
     <nav
       class="w-full max-w-siteWidth p-4 flex justify-between items-center fixed top-0 left-1/2 -translate-x-1/2 bg-white/60 shadow-sm backdrop-blur-sm md:px-12 md:py-4 lg:bg-transparent lg:shadow-none"
@@ -62,7 +62,7 @@
       </div>
     </nav>
     <!-- Navigation bar ends here -->
-    <main class="px-2 md:px-3">
+    <main class="px-2 max-w-siteWidth mx-auto md:px-3">
       <!-- Hero section starts here -->
       <section
         class="w-full bg-heroImage rounded-3xl md:rounded-[38px] h-[810px]"
@@ -771,5 +771,105 @@
 
       <!-- Call To Action section ends here -->
     </main>
+
+    <!-- Footer Section starts here -->
+
+    <footer class="w-full">
+      <div class="w-full max-w-siteWidth mx-auto">
+        <div
+          class="w-full max-w-[1200px] mx-auto py-10 px-4 flex flex-col gap-16 items-center justify-center md:py-16 md:flex-row md:items-start md:justify-between"
+        >
+          <a href="#"
+            ><img
+              class="w-11"
+              src="./assets/images/footer-logo.svg"
+              alt="Footer-Logo"
+          /></a>
+
+          <div
+            class="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:gap-8 md:grid-cols-5"
+          >
+            <ul
+              class="font-Inter text-sm text-[#5E6077] flex flex-col gap-3 *:ease *:duration-300"
+            >
+              <li class="font-medium text-white">Company</li>
+              <li class="hover:text-white"><a href="#">Blog</a></li>
+              <li class="hover:text-white"><a href="#">Careers</a></li>
+              <li class="hover:text-white"><a href="#">Pricing</a></li>
+              <li class="hover:text-white"><a href="#">Customers</a></li>
+            </ul>
+            <ul
+              class="font-Inter text-sm text-[#5E6077] flex flex-col gap-3 *:ease *:duration-300"
+            >
+              <li class="font-medium text-white">Resources</li>
+              <li class="hover:text-white"><a href="#">Documentation</a></li>
+              <li class="hover:text-white"><a href="#">Papers</a></li>
+              <li class="hover:text-white"><a href="#">Press</a></li>
+            </ul>
+            <ul
+              class="font-Inter text-sm text-[#5E6077] flex flex-col gap-3 *:ease *:duration-300"
+            >
+              <li class="font-medium text-white">Solutions</li>
+              <li class="hover:text-white"><a href="#">PCI Compliance</a></li>
+              <li class="hover:text-white">
+                <a href="#">Encryption as a Service</a>
+              </li>
+              <li class="hover:text-white">
+                <a href="#">Credentials Encryption</a>
+              </li>
+              <li class="hover:text-white"><a href="#">File Encryption</a></li>
+              <li class="hover:text-white"><a href="#">PII Encryption</a></li>
+              <li class="hover:text-white"><a href="#">HIPAA Compliance</a></li>
+            </ul>
+            <ul
+              class="font-Inter text-sm text-[#5E6077] flex flex-col gap-3 *:ease *:duration-300"
+            >
+              <li class="font-medium text-white">Legal</li>
+              <li class="hover:text-white"><a href="#">Terms of Service</a></li>
+              <li class="hover:text-white"><a href="#">Privacy Policy</a></li>
+              <li class="hover:text-white"><a href="#">Cookies Policy</a></li>
+              <li class="hover:text-white"><a href="#">Data Processing</a></li>
+            </ul>
+            <ul
+              class="font-Inter text-sm text-[#5E6077] flex flex-col gap-3 *:ease *:duration-300"
+            >
+              <li class="font-medium text-white">Compliance</li>
+              <li class="hover:text-white">
+                <a class="flex items-center gap-2.5" href="#"
+                  ><img src="./assets/images/pci-icon.svg" alt="icon" /><span
+                    >PCI Level 1</span
+                  ></a
+                >
+              </li>
+              <li class="hover:text-white">
+                <a class="flex items-center gap-2.5" href="#"
+                  ><img src="./assets/images/soc-icon.svg" alt="icon" /><span
+                    >PCI Level 1</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="w-full border-t border-[#2A2B3A]">
+        <div
+          class="w-full max-w-[1200px] mx-auto flex flex-col gap-2 items-center justify-center py-4 px-4 min-[1220px]:px-0 sm:flex-row sm:justify-between"
+        >
+          <p class="font-Inter text-center text-sm text-secondaryColor">
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Evervault Inc. All rights reserved.
+          </p>
+          <p class="font-Inter text-sm text-secondaryColor">
+            All systems normal
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Section ends here -->
   </body>
 </html>
